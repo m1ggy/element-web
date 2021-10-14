@@ -300,7 +300,7 @@ Then similarly with `reach-react-sdk`:
 git clone https://github.com/m1ggy/reach-react-sdk.git
 pushd reach-react-sdk
 yarn link
-yarn link reach-react-sdk
+yarn link matrix-react-sdk
 yarn install
 popd
 ```
@@ -311,7 +311,7 @@ Finally, build and start Element itself:
 git clone https://github.com/m1ggy/reach-client.git
 cd reach-client
 yarn link matrix-js-sdk
-yarn link reach-react-sdk
+yarn link matrix-react-sdk
 yarn install
 yarn reskindex
 yarn start
