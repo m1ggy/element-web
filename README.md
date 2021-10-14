@@ -294,13 +294,13 @@ yarn install
 popd
 ```
 
-Then similarly with `matrix-react-sdk`:
+Then similarly with `reach-react-sdk`:
 
 ```bash
-git clone https://github.com/matrix-org/matrix-react-sdk.git
-pushd matrix-react-sdk
+git clone https://github.com/m1ggy/reach-react-sdk.git
+pushd reach-react-sdk
 yarn link
-yarn link matrix-js-sdk
+yarn link reach-react-sdk
 yarn install
 popd
 ```
@@ -308,10 +308,10 @@ popd
 Finally, build and start Element itself:
 
 ```bash
-git clone https://github.com/vector-im/element-web.git
-cd element-web
+git clone https://github.com/m1ggy/reach-client.git
+cd reach-client
 yarn link matrix-js-sdk
-yarn link matrix-react-sdk
+yarn link reach-react-sdk
 yarn install
 yarn reskindex
 yarn start
