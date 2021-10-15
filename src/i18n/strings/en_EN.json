@@ -2687,7 +2687,7 @@
   "Specify a homeserver": "Specify a PrimaryLocation",
   "Matrix.org is the biggest public homeserver in the world, so it’s a good place for many.": "reach.foneapi.com is the biggest public PrimaryLocation in the world, so it’s a good place for many.",
   "Sign into your homeserver": "Sign into your PrimaryLocation",
-  "We call the places where you can host your account ‘homeservers’.": "We call the places where you can host your account ‘homeservers’.",
+  "We call the places where you can host your account ‘homeservers’.": "We call the places where you can host your account ‘PrimaryLocations’.",
   "Other homeserver": "Other PrimaryLocation",
   "Use your preferred Matrix homeserver if you have one, or host your own.": "Use your preferred Reach PrimaryLocation if you have one, or host your own.",
   "Learn more": "Learn more",
